@@ -10,7 +10,9 @@
 
 body {
     color: black;
-    background-color: white;
+    background-image: url(/Final-portfolio-images/Dark_wood.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
 }
