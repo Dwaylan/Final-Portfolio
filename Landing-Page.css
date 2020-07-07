@@ -8,15 +8,42 @@
     --transition-speed: 600ms;
 }
 
-html{
-    overflow: hidden;
+body, html{
+    height: 100%;
 }
 
-body{
-    perspective: 1px;
-    transform-style: preserve-3d;
-    overflow-x: hidden;
-    overflow-y: auto; 
+.title{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    color: darkgrey;
+}
+
+h1{
+    letter-spacing: 4px;
+    font-size: 60px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+.content1{
+    margin: 0 auto;
+    padding: 25px;
+    width: 25%;
+    text-align: center;
+    opacity: 50%;
+}
+
+.parallax{
+    background-image: url(/Final-portfolio-images/Dark_wood.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
 }
 
 body::-webkit-scrollbar {
@@ -30,11 +57,6 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
     background: #6649b8;
 }
-
-/* main {
-    margin-left: 5rem;
-    padding: 1rem;
-} */
 
 .navbar {
     position: fixed;
@@ -103,46 +125,6 @@ body::-webkit-scrollbar-thumb {
 
 .navbar:hover  svg {
     transform: rotate(-180deg);
-}
-
-.parallax-wrapper {
-    width: 100vw;
-    height: 100vh;
-    padding-top: 20vh;
-    box-sizing: border-box;
-}
-
-.parallax-wrapper::before{
-    content: "";
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    background-image: url(/Final-portfolio-images/Dark_wood.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: absolute;
-    z-index: -1;
-    transform-style: preserve-3d;
-    /* transform: translateZ(-1px) scale(2); */
-}
-
-.regular-wrapper {
-    width: 100vw;
-    height: 100vh;
-    padding-top: 20vh;
-    background-image: url(/Final-portfolio-images/Dark_wood.jpg);
-    z-index: 2;
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.content1{
-    margin: 0 auto;
-    padding: 50px;
-    width: 50%;
-    text-align: center;
 }
 
   /* Small screens */
