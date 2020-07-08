@@ -13,10 +13,11 @@ body, html {
 }
 
 .parallax{
-    background-image: url(/Final-portfolio-images/Dark_wood.jpg);
+    background-image: url(/Final-portfolio-images/metallic.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center;
     height: 100%;
 }
 
