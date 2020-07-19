@@ -111,12 +111,34 @@ main {
     left: 50%;
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
-    padding: 25px;   
+    padding: 25px;
 }
 
-.title{
-    background-color: white;
-    text-align: center;
+header{
+    background-color: grey;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 100%;
+}
+.profile{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    
+}
+
+button{
+    justify-content: center;
+}
+
+.box2{
+    display: flex;
+    padding-top: 20px;
+}
+
+.aside_content{
+    padding: 30px;
+    border: solid grey;
 }
 
   /* Small screens */
@@ -170,6 +192,18 @@ main {
     left: 0px;
     }
 }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .container{
+    }
+    }
+
+ /* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+    }   
+
 
 .dark {
     --text-primary: #b6b6b6;
