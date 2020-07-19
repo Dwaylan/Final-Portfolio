@@ -45,6 +45,12 @@ h3{
     font-style: italic;
 }
 
+button{
+    position: absolute;
+    width: 25%;
+    margin: 3% auto;
+}
+
 .content1{
     margin: 0% auto;
     padding: 25px;
@@ -57,8 +63,12 @@ h3{
     color: white;
 }
 
-button{
+.headshot{
+    border-radius: 55%;
     position: absolute;
+    left: 50%;
+    top: 180%;
+    transform: translateX(-50%) translateY(-50%);
 }
 
 .parallax{
@@ -160,10 +170,6 @@ body::-webkit-scrollbar-thumb {
     height: 5rem;
     }
 
-    .logo {
-    display: none;
-    }
-
     .navbar-nav {
     flex-direction: row;
     }
@@ -175,6 +181,18 @@ body::-webkit-scrollbar-thumb {
     main {
     margin: 0;
     }
+
+    .headshot{
+        display: none;
+    }
+
+    .content1{
+        color: turquoise;
+    }
+
+    /* .nav-item{
+        size: 3rem; */
+    
 }
 
   /* Large screens */

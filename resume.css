@@ -149,8 +149,8 @@ button{
     height: 5rem;
     }
 
-    .logo {
-    display: none;
+    .container{
+        size: 5rem;
     }
 
     .navbar-nav {
@@ -196,6 +196,8 @@ button{
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .container{
+        display: flex;
+        flex-direction: row;
     }
     }
 
