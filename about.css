@@ -23,7 +23,15 @@ body, html{
 }
 
 .container1{
-    width: 500px;
+    position: absolute;
+    left: 55%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    background-color: darkgrey;
+    width: 90%;
+    height: 90vh;
+    opacity: 97%;
 }
 
 h1{
@@ -232,6 +240,29 @@ main {
 
     main {
     margin: 0;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        height: 30vh;
+        position: relative;
+        
+        
+    }
+
+    .top{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img{
+        display: none;
     }
 }
 

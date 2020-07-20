@@ -120,11 +120,11 @@ header{
     grid-template-columns: 40% 60%;
     width: 100%;
 }
+
 .profile{
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    
 }
 
 button{
@@ -163,6 +163,16 @@ button{
 
     main {
     margin: 0;
+    }
+
+    .container{
+        height: 100px;
+    }
+
+    .box2{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
     }
 }
 

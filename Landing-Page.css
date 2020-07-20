@@ -43,12 +43,16 @@ h3{
     color: black;
     letter-spacing: 3px;
     font-style: italic;
+    
 }
 
 button{
     position: absolute;
     width: 25%;
     margin: 3% auto;
+    left: 50%;
+    top: 180%;
+    transform: translateX(-50%) translateY(-50%);
 }
 
 .content1{
